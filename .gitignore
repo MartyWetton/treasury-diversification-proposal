@@ -1,0 +1,11 @@
+node_modules
+cache
+artifacts
+build
+dist
+.env
+coverage
+coverage.json
+.openzeppelin
+yarn-error.log
+.vscode
