@@ -8,9 +8,9 @@ Sale features:
 
 - Fully decentralized: Tornado DAO and [1Inch LimitOrderProtocol](https://docs.1inch.io/docs/limit-order-protocol/introduction) are used to achieve it
 - Crowd sale with a fixed price and token amounts
-- Only Vesting TORN token (TORN-v) to be sold:
-  - Users can lock TORN-v in Tornado governance for a vesting period (see parameters section). In which case users can use them for governance voting and withdraw as TORN after vesting period
-  - Alternatively, users can swap TORN-v for the same value of TORN after a vesting period
+- Only Vesting TORN token (TORN-v-1) to be sold:
+  - Users can lock TORN-v-1 in Tornado governance for a vesting period (see parameters section). In which case users can use them for governance voting and withdraw as TORN after vesting period
+  - Alternatively, users can swap TORN-v-1 for the same value of TORN after a vesting period
 
 ## Parameters
 
@@ -23,7 +23,7 @@ Sale features:
 ## Warnings
 
 1. **TORN/ETH** sale rate is constant and is fixed on the proposal execution moment. So the price can be more than the market one during the sale - which makes the sale not attractive to investors.
-2. Governance contract has `canWithdrawAfter[user]` parameter which says when an exact user can withdraw tokens - it is one common date for all user's tokens. In current implementation user can't lock TORN-v on governance if already they have locked tokens (otherwise all their tokens would be locked for `vestingDuration`).
+2. Governance contract has `canWithdrawAfter[user]` parameter which says when an exact user can withdraw tokens - it is one common date for all user's tokens. In current implementation user can't lock TORN-v-1 on governance if already they have locked tokens (otherwise all their tokens would be locked for `vestingDuration`).
 
 ## Test
 
